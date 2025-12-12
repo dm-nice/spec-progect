@@ -1,0 +1,5 @@
+2025-12-12：
+- 在 c:\SPEC 下以 `git clone https://github.com/github/spec-kit.git` 取得 upstream 專案，再進入 repo。
+- 設定 Python 虛擬環境 venv32，安裝 `uv` 工具，透過 `uv tool install specify-cli --from git+https://github.com/github/spec-kit.git` 將 `specify` CLI 裝進 venv。
+- 透過 `uv` 預設路徑中的 `specify.exe` 執行 `specify init --here --ai copilot --force`，產生 `.specify` 架構與憲法、template 等，並依據憲法規範填入原則內容。
+- 依據 `/specify` 輸入的「使用者註冊服務」需求，撰寫規格、plan、tasks、implement log，涵蓋 email 驗證、重送、Argon2 密碼加密等核查，並說明下一步驟。
